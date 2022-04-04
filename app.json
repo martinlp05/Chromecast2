@@ -16,6 +16,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      "@config-plugins/react-native-google-cast"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,7 +26,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.System.Chromecast"
     },
     "web": {
       "favicon": "./assets/favicon.png"
